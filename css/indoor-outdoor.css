@@ -1,0 +1,90 @@
+.indoor-outdoor-section {
+  background-image: url("../img/background-indoor-outdoor.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  height: 400px;
+  display: flex;
+  column-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 0 16px;
+
+
+}
+.in-out-container {
+  backdrop-filter: blur(9px);
+  display: flex;
+  border: 1px solid var(--grey-green);
+  border-radius: 16px;
+  flex: 1;
+  max-width: 550px;
+  align-items: flex-start;
+  padding: 16px 22px;
+  transition: border 0.4s ease, backdrop-filter 0.4s ease;
+
+}
+.in-out-container:hover {
+  border: 1px solid var(--header-bg);
+  backdrop-filter: blur(20px);
+
+}
+.in-out-img {
+  text-align: center;
+  vertical-align: center;
+}
+
+.in-out-img img {
+  max-height: 240px;
+  object-fit: cover;
+  border-radius: 8px;
+
+}
+.in-out-info {
+  flex: 1;
+  margin-right: 16px;
+}
+
+.in-out-label {
+  padding: 10px 30px;
+  background-color: var(--grey-green);
+  color: white;
+  font-family: Lora;
+  font-size: 12px;
+  display: inline-block;
+
+  border-radius: 20px;
+}
+.in-out-title {
+  margin: 25px 0;
+  color: var(--white);
+  font-family: Lora;
+  font-weight: bold;
+  font-size: 24px;
+}
+.in-out-text {
+  color: var(--white);
+  font-family: Lora;
+  font-size: 16px;
+}
+.explore-btn {
+  padding: 6px 16px;
+  background-color: var(--header-bg);
+  color: var(--accent);
+  font-family: Lora;
+  font-size: 14px;
+font-weight: 500;
+  border-radius: 16px;
+  border: none;
+  margin-top: 25px ;
+  transition: background-color 0.2s, color 0.2s;
+  cursor: pointer;
+
+}
+.explore-btn:hover {
+  color: var(--white);
+  background-color: var(--accent);
+
+}
+

@@ -1,0 +1,32 @@
+:root {
+  --white: #f9fafb;
+  --header-bg: #dadada;
+  --text-primary: #111827;
+  --grey: #707070;
+  --black: #000000;
+  --accent: #003b00;
+  --grey-green: #5e7a62;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, Arial, serif;
+}
+
+.green-title {
+  font-family: Lora;
+
+  color: var(--accent);
+  font-size: 46px;
+  letter-spacing: 1px;
+  text-align: center;
+  margin: 50px 0 20px;
+}
+
+.green-text {
+  text-align: center;
+  font-family: Lora;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 60px;
+}
