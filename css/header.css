@@ -6,6 +6,7 @@
   height: 100px;
   justify-content: space-between;
   padding:  0 100px;
+  font-family: Roboto;
 
 
 }
@@ -20,6 +21,7 @@
 
 .logo {
   height: 48px;
+  border-radius: 24px;
 }
 
 .website-title {

@@ -50,7 +50,6 @@
   padding: 10px 30px;
   background-color: var(--grey-green);
   color: white;
-  font-family: Lora;
   font-size: 12px;
   display: inline-block;
 
@@ -59,20 +58,17 @@
 .in-out-title {
   margin: 25px 0;
   color: var(--white);
-  font-family: Lora;
   font-weight: bold;
   font-size: 24px;
 }
 .in-out-text {
   color: var(--white);
-  font-family: Lora;
   font-size: 16px;
 }
 .explore-btn {
   padding: 6px 16px;
   background-color: var(--header-bg);
   color: var(--accent);
-  font-family: Lora;
   font-size: 14px;
 font-weight: 500;
   border-radius: 16px;

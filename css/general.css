@@ -3,18 +3,26 @@
   --header-bg: #dadada;
   --text-primary: #111827;
   --grey: #707070;
+  --dark-grey: #343434;
   --black: #000000;
   --accent: #003b00;
+  --light-accent: #075707;
   --grey-green: #5e7a62;
 }
 
 body {
   margin: 0;
-  font-family: Roboto, Arial, serif;
+  font-family: Lora;
+
+
+}
+main {
+  /*margin-bottom: 220px;*/
+
 }
 
 .green-title {
-  font-family: Lora;
+  font-weight: bold;
 
   color: var(--accent);
   font-size: 46px;
@@ -25,7 +33,6 @@ body {
 
 .green-text {
   text-align: center;
-  font-family: Lora;
   font-weight: bold;
   font-size: 16px;
   margin-bottom: 60px;

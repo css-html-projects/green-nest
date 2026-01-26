@@ -1,0 +1,77 @@
+.email-section {
+  background-image: url("../img/background-img.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+
+
+}
+.email-container {
+  backdrop-filter: blur(9px);
+  border: 1px solid var(--grey-green);
+  border-radius: 16px;
+  flex: 1;
+  max-width: 550px;
+  text-align: center;
+  padding:  36px;
+  transition: border 0.4s ease, backdrop-filter 0.4s ease;
+
+}
+.email-container:hover {
+  border: 1px solid var(--header-bg);
+  backdrop-filter: blur(20px);
+
+}
+
+
+.email-title {
+  margin:0 0 20px;
+  color: var(--white);
+  font-weight: bold;
+  font-size: 42px;
+
+}
+.email-text {
+  color: var(--white);
+  font-size: 16px;
+  margin-bottom: 36px;
+}
+
+.email-btn {
+  color: var(--white);
+  background-color: var(--accent);
+
+  font-size: 16px;
+  font-weight: 500;
+
+  border: none;
+  border-radius: 6px;
+  padding: 14px 24px;
+  cursor: pointer;
+
+  transition: background-color 0.2s;
+
+}
+.email-btn:hover {
+  background-color: var(--light-accent);
+}
+.email-input {
+  background-color: var(--white);
+  font-size: 16px;
+
+  border: none;
+  border-radius: 6px;
+  padding: 13px;
+  width: 250px;
+  margin-right: 5px;
+}
+.email-input:focus {
+  outline: none;}
+
+

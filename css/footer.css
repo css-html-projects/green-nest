@@ -1,0 +1,48 @@
+.footer-container {
+  display: flex;
+  background-color: var(--accent);
+  padding: 40px 24px;
+}
+.footer-left{
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+.footer-logo {
+  height: 48px;
+  border-radius: 24px;
+  margin-right: 12px;
+}
+.footer-website-name {
+  color: var(--white);
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+
+}
+.footer-site-map, .footer-right {
+  flex: 1;
+  text-align: center;
+
+}
+
+
+.footer-link, .footer-text {
+  display: block;
+  color: var(--header-bg);
+  font-size: 15px;
+  text-decoration: none;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+.footer-link:hover {
+  color: var(--white);
+}
+.footer-text {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: var(--white);
+  cursor: auto;
+}
+
+
