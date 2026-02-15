@@ -11,6 +11,8 @@
 
 }
 
+
+
 .left-section {
   display: flex;
   align-items: center;
@@ -56,27 +58,6 @@
 .nav-link:hover {
   border-bottom: 3px solid var(--accent);
 }
-
-@media (max-width: 1200px) {
-  .burger-btn {
-    display: block;
-    border: none;
-    font-size: 24px;
-    background-color: transparent;
-    color: var(--accent);
-    margin-right: 16px;
-    padding-top: 6px;
-    cursor: pointer;
-
-
-  }
-  .nav-section {
-    display: none;
-  }
-
-}
-
-
 .right-section {
   display: flex;
   justify-content: space-between;
@@ -118,5 +99,94 @@
   background-color: var(--accent);
 
 }
+
+@media (max-width: 1200px) {
+  .burger-btn {
+    display: block;
+    border: none;
+    font-size: 24px;
+    background-color: transparent;
+    color: var(--accent);
+    margin-right: 16px;
+    padding-top: 6px;
+    cursor: pointer;
+
+
+  }
+  .nav-section {
+    display: none;
+  }
+  .header {
+    padding: 0 50px ;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 0 24px ;
+  }
+  .right-section {
+    width: 180px;
+
+  }
+  .logo {
+    height: 32px;
+  }
+  .website-title {
+    font-size: 26px;
+    margin: 14px;
+  }
+  .shop-btn {
+    font-size: 14px;
+    padding: 10px 10px;
+
+  }
+  .cart-btn, .search-btn {
+    padding: 10px 10px;
+    font-size: 14px;
+
+
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 0 14px ;
+    height: 60px;
+  }
+  .right-section {
+    width: 150px;
+
+  }
+  .logo {
+    height: 24px;
+  }
+  .website-title {
+    font-size: 20px;
+    margin: 12px;
+  }
+  .shop-btn {
+    font-size: 12px;
+    padding: 5px 10px;
+
+  }
+  .cart-btn, .search-btn {
+    padding: 5px 8px;
+    font-size: 12px;
+
+  }
+  .burger-btn {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 360px) {
+  .website-title {
+    display: none;
+  }
+
+}
+
+
 
 

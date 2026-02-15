@@ -25,8 +25,6 @@
   text-align: center;
 
 }
-
-
 .footer-link, .footer-text {
   display: block;
   color: var(--header-bg);
@@ -45,4 +43,40 @@
   cursor: auto;
 }
 
+@media (max-width: 768px) {
+  .footer-website-name {
+    font-size: 20px;
+
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-container {
+    padding: 14px;
+  }
+
+  .footer-logo {
+    height: 24px;
+    border-radius: 24px;
+    margin-right: 8px;
+  }
+  .footer-website-name {
+    font-size: 16px;
+  }
+  .footer-link, .footer-text {
+    font-size: 11px;
+    margin-bottom: 5px;
+  }
+
+  .footer-text {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 360px) {
+  .footer-website-name {
+    font-size: 12px;
+
+  }
+}
 
