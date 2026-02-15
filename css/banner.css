@@ -8,26 +8,20 @@
 }
 
 
-
 .bnr-text-large {
   font-size: 18px;
   color: var(--white);
-
-
 }
 
 .bnr-text-middle {
   font-size: 16px;
   color: var(--white);
   margin: 0;
-
 }
 
 .bnr-text-small {
   font-size: 12px;
   color: var(--white);
-
-
 }
 
 h1 {
@@ -65,6 +59,7 @@ h1 {
   cursor: pointer;
 
 }
+
 .watch-btn:hover {
   color: var(--white);
   background-color: var(--accent);
@@ -109,4 +104,189 @@ h1 {
   font-weight: bold;
   margin: 10px 0;
   padding: 0;
+}
+
+
+@media (max-width: 1200px) {
+  .banner {
+    padding: 60px 45px 80px;
+  }
+
+  .stats-container {
+    column-gap: 30px;
+    margin: 80px 0 0 0;
+  }
+
+}
+
+@media (max-width: 1000px) {
+
+
+
+  h1 {
+    font-size: 48px;
+    line-height: 65px;
+    margin: 18px 0;
+    letter-spacing: 1.2px;
+  }
+
+  .stats {
+    min-width: 35%;
+    max-width: 45%;
+    border-radius: 16px;
+    padding: 10px;
+  }
+
+  .stats-container {
+    margin: 40px 40px;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+
+  }
+}
+
+@media (max-width: 768px) {
+  .banner {
+    height: 550px;
+    padding: 30px 12px 30px;
+  }
+
+
+  .bnr-text-large {
+    font-size: 16px;
+  }
+
+  .bnr-text-middle {
+    font-size: 14px;
+  }
+
+  .bnr-text-small {
+    font-size: 12px;
+  }
+
+  h1 {
+    font-size: 32px;
+    line-height: 35px;
+    letter-spacing: 1.1px;
+  }
+
+  .banner-btn-container {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .watch-container {
+    column-gap: 8px;
+  }
+
+  .banner-shop-btn {
+    margin-right: 18px;
+  }
+
+  .watch-btn {
+    padding: 10px 12px;
+    font-size: 18px;
+
+  }
+
+  .stats-container {
+    margin: 20px;
+    column-gap: 15px;
+    justify-items: center;
+
+
+  }
+
+  .stats {
+    padding: 6px;
+
+    border-radius: 16px;
+  }
+
+
+  .stats-text {
+    font-size: 14px;
+    margin: 8px 0;
+  }
+
+  .stats-count {
+    font-size: 24px;
+    margin: 6px 0;
+    padding: 0;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .bnr-text-large {
+    font-size: 14px;
+  }
+
+  .bnr-text-middle {
+    font-size: 12px;
+  }
+
+  .bnr-text-small {
+    font-size: 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 1px;
+  }
+
+  .banner-btn-container {
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+
+  .watch-container {
+    column-gap: 4px;
+  }
+
+
+  .watch-btn {
+    padding: 8px 10px;
+    font-size: 16px;
+
+  }
+
+  .stats-container {
+    margin: 15px;
+  }
+
+  .stats-text {
+    font-size: 13px;
+    margin: 6px 0;
+  }
+
+  .stats-count {
+    font-size: 18px;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .banner {
+    height: 450px;
+  }
+
+  h1 {
+    font-size: 20px;
+    line-height: 26px;
+    margin: 12px 0;
+  }
+
+  .stats-container {
+    row-gap: 15px;
+
+
+  }
+
+  .bnr-text-large {
+    margin: 8px 0;
+  }
 }
