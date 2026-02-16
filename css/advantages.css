@@ -1,8 +1,7 @@
 .advantages-section {
-  height: 800px;
+  padding: 40px 0;
+
 }
-
-
 
 
 .advantages-container {
@@ -15,54 +14,63 @@
 }
 
 
-
 .adv-img-section {
   flex: 1;
   text-align: center;
 }
 
 .adv-image {
-  max-width: 500px;
   width: 90%;
   opacity: 0.95;
   transition: width 0.4s ease, opacity 0.4s ease;
 
 }
+
 .adv-image:hover {
   width: 100%;
   opacity: 1;
 }
- .adv-left-section  {
-   display: flex;
-   flex-direction: column;
+
+.adv-left-section {
+  display: flex;
+  flex-direction: column;
   align-items: flex-end;
-   flex: 1;
-   row-gap: 70px;
+  flex: 1;
+  row-gap: 70px;
+  width: 30%;
 
 }
-.adv-right-section  {
+
+.adv-right-section {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   flex: 1;
   row-gap: 70px;
+  width: 30%;
 
 
 }
+
 .advantage {
-  width: 350px;
+  max-width: 350px;
+  height: 200px;
+
 
 }
+
 .adv-title {
   font-weight: bold;
   font-size: 20px;
 
   margin: 0;
 }
+
 .adv-text {
 
   font-size: 16px;
 }
+
 .adv-icon {
   padding: 16px;
   background-color: var(--header-bg);
@@ -72,4 +80,99 @@
   align-self: center;
   font-size: 20px;
   margin-bottom: 25px;
+}
+
+
+@media (max-width: 1200px) {
+
+  .advantages-container {
+
+    height: 500px;
+
+  }
+  .advantages-section {
+    padding: 40px 30px;
+  }
+
+  .adv-left-section, .adv-right-section {
+    row-gap: 20px;
+  }
+}
+
+
+@media (max-width: 768px) {
+
+  .advantage {
+    height: 160px;
+  }
+
+  .advantages-container {
+    height: 350px;
+  }
+
+  .adv-left-section, .adv-right-section {
+    row-gap: 15px;
+  }
+
+
+  .adv-title {
+    font-size: 16px;
+  }
+
+  .adv-text {
+    font-size: 13px;
+  }
+
+  .adv-icon {
+    padding: 8px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+}
+
+@media (max-width: 620px) {
+  .advantage {
+    height: 150px;
+  }
+  .advantages-section {
+    padding: 30px 15px;
+  }
+  .adv-img-section {
+    display: none;
+  }
+
+  .advantages-container {
+    column-gap: 40px;
+  }
+}
+
+
+@media (max-width: 480px) {
+
+
+  .advantages-container {
+    column-gap: 20px;
+  }
+
+  .adv-left-section, .adv-right-section {
+    row-gap: 10px;
+  }
+
+
+  .adv-title {
+    font-size: 14px;
+  }
+
+  .adv-text {
+    font-size: 12px;
+  }
+
+
+  .adv-icon {
+    padding: 8px;
+    font-size: 14px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+  }
 }
