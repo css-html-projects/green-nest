@@ -16,10 +16,7 @@ body {
 
 
 }
-main {
-  /*margin-bottom: 220px;*/
 
-}
 
 .green-title {
   font-weight: bold;
@@ -37,3 +34,48 @@ main {
   font-size: 16px;
   margin-bottom: 60px;
 }
+
+@media (max-width: 768px) {
+
+  .green-title {
+    font-size: 34px;
+    letter-spacing: 0;
+    margin: 20px 0 8px;
+  }
+
+  .green-text {
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+
+}
+
+@media (max-width: 560px) {
+
+  .green-title {
+    font-size: 24px;
+    letter-spacing: 0;
+    margin: 20px 0 8px;
+  }
+
+  .green-text {
+    font-size: 13px;
+    margin-bottom: 30px;
+  }
+
+}
+
+@media (max-width: 360px) {
+
+  .green-title {
+    font-size: 18px;
+    margin: 10px 0 6px;
+  }
+
+  .green-text {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+}
+
